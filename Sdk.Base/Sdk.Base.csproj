@@ -1,0 +1,21 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+  <PropertyGroup>
+    <TargetFrameworks>MonoAndroid90</TargetFrameworks>
+    <AssemblyName>Com.Google.VR.Sdk.Base</AssemblyName>
+    <RootNamespace>Com.Google.VR.Sdk.Base</RootNamespace>
+    <Description>Xamarin bindings for Google VR. Enables Daydream and Cardboard app development on Android.</Description>
+    <PackageId>Com.Google.VR.Sdk.Base</PackageId>
+    <IsBindingProject>true</IsBindingProject>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="Additions\*;Jars\*;Transforms\*;JavaDocs\**" />
+	  <LibraryProjectZip Include="Jars\*.aar" />
+	  <TransformFile Include="Transforms\*.xml" />
+	  <Compile Include="Additions\*.cs" />
+    <None Include="..\readme.txt" pack="true" PackagePath="." />
+    <JavaSourceJar Include="JavaDocs\*.jar" />
+  </ItemGroup>
+  
+</Project>
