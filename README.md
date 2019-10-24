@@ -24,3 +24,9 @@ SDK releases are availble from the [releases](//github.com/googlevr/gvr-android-
 [GVR]: https://github.com/googlevr/gvr-android-sdk
 [Nuget]: https://www.nuget.org/packages/Xam.Plugins.Android.ExoPlayer/
 [Developer]: http://developer.android.com/guide/topics/media/exoplayer.html
+
+# Support
+
+* Feel free to open an issue. Make sure to use one of the templates!
+* Commercial support is available. Integration with your app or services, samples, feature request, etc. Email: [hello@baseflow.com](mailto:hello@baseflow.com)
+* Powered by: [baseflow.com](https://baseflow.com)
