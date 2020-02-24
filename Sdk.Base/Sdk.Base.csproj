@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>MonoAndroid90</TargetFrameworks>
+    <TargetFrameworks>monoandroid10.0</TargetFrameworks>
     <AssemblyName>Com.Google.VR.Sdk.Base</AssemblyName>
     <RootNamespace>Com.Google.VR.Sdk.Base</RootNamespace>
     <Description>Xamarin bindings for Google VR. Enables Daydream and Cardboard app development on Android.</Description>

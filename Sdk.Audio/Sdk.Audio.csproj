@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>MonoAndroid90</TargetFrameworks>
+    <TargetFrameworks>monoandroid10.0</TargetFrameworks>
     <AssemblyName>Com.Google.VR.Sdk.Audio</AssemblyName>
     <RootNamespace>Com.Google.VR.Sdk.Audio</RootNamespace>
     <Description>Xamarin bindings for Google VR Audio</Description>
